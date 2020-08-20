@@ -23,7 +23,7 @@ spec:
     AWS_SECRET_ACCESS_KEY = "${CREDS_PSW}"
     OWNER = 'bryan'
     PROJECT_NAME = 'web-server'
-  }
+  } 
   stages {
       stage("build") {
           steps {
